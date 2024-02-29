@@ -24,11 +24,11 @@ public class AssignmentOnActionsAndScreenshot {
 	    WebElement coins = driver.findElement(By.xpath("//a[text()='Coins']"));
 	    Actions act = new Actions(driver);
 	    act.moveToElement(coins).perform();
-	    driver.findElement(By.xpath("//span[text()='1 gram']"))
-	    coinsLink.click();
-	    
-	    WebElement coinElement = 
-	    
+		/*
+		 * driver.findElement(By.xpath("//span[text()='1 gram']")) coinsLink.click();
+		 * 
+		 * WebElement coinElement =
+		 */   
 	    
 	    
 		 
